@@ -13,7 +13,6 @@ namespace Recursive_factorial
         {
             number=Convert.ToInt32(txtNumber.Text);
             int result = CalculateFactorial(number);
-            // Mostrar el resultado en txtFactorial
             txtFactorial.Text = result.ToString();
         }
 
